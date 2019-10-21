@@ -50,7 +50,6 @@ throat=np.where(A==1)
 throat=throat[0]
 
 
-#for t in range(nt):
 while err>0.01 :
     iterNo=iterNo+1
     rho_n=rho.copy()
